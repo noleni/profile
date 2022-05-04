@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@400;600&family=Roboto:wght@300&display=swap');
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #212E53;
+  background-color: #BED3C3;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #212E53;
+}
+
+img {
+  width: 20%;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #585F7D
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 10px;
+  padding: 10px;
+}
+
+.fab {
+  color : #BED3C3;
+  font-size: 50px;
+  padding: 0px 30px 0px 0px;
+
+}
+
+.fab:hover {
+  color: #EBACA2;
+}
+
+.container {
+  margin: 20px auto;
+  width: 600px;
+}
+
+.card > a {
+  padding: 10px 20px;
+  border: 2px;
+  border-radius: 8px;
+  background: #4A919E;
+  color: white;
+}
+
+.card > a:hover {
+  background: #EBACA2;
+  color: white;
+}
+
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+  margin:20px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+
+
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
